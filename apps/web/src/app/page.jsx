@@ -1,4 +1,6 @@
-import Header from '@/components/EventList/Header';
+import Hero from '@/components/EventList/Hero';
+import UpcomingEvent from '@/components/UpcomingEvent';
+
 import React from 'react';
 
 const Page = () => {
@@ -6,11 +8,8 @@ const Page = () => {
     <div className="">
       {/* Komponen Re-usebility */}
       <section>
-        <Header
-          title="Paling Populer"
-          LinkTitle="Lihat Semua"
-          LinkHref="/populer"
-        />
+        <Hero />
+        <UpcomingEvent />
       </section>
     </div>
   );
