@@ -1,7 +1,6 @@
-import Hero from '@/components/EventList/Hero';
-import UpcomingEvent from '@/components/UpcomingEvent';
-
 import React from 'react';
+import Hero from '../components/EventList/Hero';
+import UpcomingEvent from '../components/UpcomingEvent';
 
 const Page = () => {
   return (
